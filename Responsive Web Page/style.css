@@ -1,0 +1,30 @@
+body {
+    margin: 20px;
+  }
+            
+  main{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .main3{
+  flex:1;
+    margin:20px;
+  }
+  
+  .list{
+    display:flex;
+    margin:20px;
+  }
+  a{
+  padding:10px;
+  }
+  nav{
+  justify-content:center;
+  }
+  
+  @media screen and (max-width:786px){
+    nav ul{
+    flex-direction:coloum;
+      gap:10px;
+    }
+  }
